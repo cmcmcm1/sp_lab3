@@ -1,0 +1,17 @@
+import java.math.BigInteger;
+import java.util.Random;
+
+public class FactorizePollard {
+    private static BigInteger F(BigInteger x, BigInteger n){
+        BigInteger res=(x.multiply(x)).add(BigInteger.ONE).mod(n);
+        return res;
+    }
+    public static couple FactorizePollard(BigInteger n) {
+        while (d.equals(BigInteger.ONE)) {
+            x = F(x, n);
+            y = F(F(y, n), n);
+            d=n.gcd(x.subtract(y).abs());
+        }
+    }
+}
+r='absjhjsag'

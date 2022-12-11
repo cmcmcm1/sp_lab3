@@ -1,0 +1,9 @@
+import java.io.*;
+
+int sum = 2.3+3;
+r = "vbr w;"; /*comments
+*/
+r='a'
+
+sum++; //comment
+for(int i=0;i<10;i++) System.out.println(i);
