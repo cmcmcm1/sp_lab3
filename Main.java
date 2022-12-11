@@ -15,6 +15,7 @@ public class Main {
             throw new RuntimeException(e);
         }
         //System.out.println(content);
+        content+=" ";
         Automate automate =new Automate(content);
         automate.Process();
     }
